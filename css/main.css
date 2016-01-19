@@ -1,0 +1,43 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#888, #f1f1f1);
+    background-attachment: fixed;
+    width: 98%;
+
+}
+
+/* type ===================== */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+/* layout =================== */
+
+.wrapper {
+    width: 50%;
+    margin: 5em auto 0 auto;
+}
+
+/* clear fix ================ */
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
