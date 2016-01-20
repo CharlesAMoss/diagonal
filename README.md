@@ -4,7 +4,7 @@
 ### by [Charles Moss](https://twitter.com/CharlesMoss)
 
 ## Description
-_A simple diagonal calculator, this has no front end at this time so get thee to the console._
+_A simple diagonal calculator, this has minimal front end at this time so get thee to the console. The button marked 'click' will console log the calculated diagonal length of the viewport._
 
 ## Technologies Used
 _JavaScript_
