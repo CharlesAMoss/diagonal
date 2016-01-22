@@ -7,3 +7,10 @@ var diagonal = function (width, height) {
 
     return Math.sqrt(perimeter);
 };
+
+var getViewport = function (){
+    var intFrameWidth = window.innerWidth;
+    var intViewportHeight = window.innerHeight;
+    var windowDiagonal = diagonal(intFrameWidth, intViewportHeight);
+    console.log(windowDiagonal);
+};
