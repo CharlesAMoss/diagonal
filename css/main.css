@@ -23,8 +23,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .wrapper {
     width: 55%;
-    margin: 5em auto 0 auto;
+    margin: 4em auto 0 auto;
     padding: 1em;
+}
+
+.container {
+    padding: 1em;
+    margin: 1em 0;
+    height: 300px;
+    background: linear-gradient(#888, #f1f1f1);
 }
 
 /* interface ================ */
@@ -37,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
     font-size: 1em;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
 }
 
 .form__btn:hover {
