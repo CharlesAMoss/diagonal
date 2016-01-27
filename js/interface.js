@@ -1,15 +1,17 @@
 $( document ).ready(function() {
     console.log( "document loaded" );
-    getViewport();
+    var foo = getViewport();
+    console.log(foo);
 
     $( "div#container" ).click(function() {
         console.log( "container loaded" );
-        // $(this).innerHeight = elHeight;
-        // $(this).innerWidth = elWidth;
-        // var elDiagonal = diagonal(elWidth, elHeight);
+        var elHeight = $(this).innerHeight();
+        var elWidth = $(this).innerWidth();
+        var elDiagonal = diagonal(elWidth, elHeight);
         console.log(elDiagonal);
-    });
+        console.log(getPercentage(elDiagonal,foo));
 
+    });
 });
 
 $( ".form__btn" ).click(function() {
